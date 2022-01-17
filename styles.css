@@ -26,8 +26,13 @@
   max-width: 35px;
 }
 
+.flex-box {
+  display: flex;
+  justify-content: right;
+}
+
 .headshot {
-  margin-left: 65%;
+  padding-right: 10%;
 }
 
 .hero {
@@ -62,7 +67,8 @@ img {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
-  font-size: 30px;
+  border-right: 4px solid burlywood;
+  font-size: 30px 4vw;
   line-height: 1.1;
   color: burlywood;
 }
@@ -138,8 +144,7 @@ span {
   border: 5px solid burlywood;
   background-color: #a5def1;
   color: #233142;
-  min-height: 150px;
-  max-height: 150px;
+  height: 100%;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -149,18 +154,16 @@ span {
   background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
-  font-size: 0.9rem;
+  font-size: 0.9vw;
 }
 
 .flex-item2 {
   border: 5px solid burlywood;
   background-color: #a5def1;
   color: #233142;
-  min-height: 150px;
-  max-height: 150px;
+  height: 100%;
   flex-basis: calc(50% - 1em);
   display: flex;
-  align-items: flex-end;
   padding: 0 10px 20px 10px;
   margin: 0.5em;
   text-decoration: none;
@@ -207,10 +210,28 @@ span {
   .flex-item,
   .flex-item:first-child {
     flex-basis: 100%;
+    font-size: 12px;
+  }
+
+  .detail h1 {
+    font-size: 20px;
+  }
+
+  .detail p {
+    font-size: 20px;
   }
 
   .flex-item:first-child {
     min-height: 150px;
+  }
+
+  img {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  body {
+    font-size: 50%;
   }
 
   .hero-banner {

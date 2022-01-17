@@ -18,10 +18,16 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.gitlogo {
+  max-height: 35px;
+  max-width: 35px;
 }
 
 .headshot {
-  margin-left: 70%;
+  margin-left: 65%;
 }
 
 .hero {
@@ -66,7 +72,7 @@ img {
 }
 
 .page-section p {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 header {
@@ -98,14 +104,14 @@ nav {
 nav a {
   text-decoration: none;
   padding: 5px 10px;
-  color: var(--secondary);
+  color: #36506c;
   margin-right: 10px;
   transition: all 0.25s ease-in;
   font-size: 1.4rem;
 }
 
 nav a:hover {
-  color: lightgray;
+  color: burlywood;
 }
 
 .detail {
@@ -126,6 +132,42 @@ nav a:hover {
 
 span {
   color: burlywood;
+}
+
+.flex-item {
+  border: 5px solid burlywood;
+  background-color: #a5def1;
+  color: #233142;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 10px 20px 10px;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+.flex-item2 {
+  border: 5px solid burlywood;
+  background-color: #a5def1;
+  color: #233142;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 10px 20px 10px;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 980px) {
@@ -198,5 +240,5 @@ span {
 
 .contact ul li a:hover {
   background-size: 100% 88%;
-  color: lightgrey;
+  color: burlywood;
 }

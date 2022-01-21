@@ -206,6 +206,30 @@ span {
   }
 }
 
+.flex-item3 {
+  border: 5px solid burlywood;
+  color: #233142;
+  height: 100%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 10px 20px 10px;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9vw;
+}
+
+.password-generator {
+  background-image: url("./images/03-javascript-homework-demo.png");
+}
+
+.day-planner {
+  background-image: url("./images/calendar\ image.png");
+}
+
 @media screen and (max-width: 768px) {
   .flex-item,
   .flex-item:first-child {

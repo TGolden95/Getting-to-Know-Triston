@@ -25,6 +25,6 @@ Placeholders
 
 ![calendar image-1](https://user-images.githubusercontent.com/94794961/153693476-b8ef8cb4-3eeb-4672-b512-2d8c8feff0ba.png)
 
-![Heashot](<img width="463" alt="headshot" src="https://user-images.githubusercontent.com/94794961/153693532-6b400083-755c-445b-b0f9-f19c0d9cc173.png">)
+![Headshot]<img width="463" alt="headshot" src="https://user-images.githubusercontent.com/94794961/153693532-6b400083-755c-445b-b0f9-f19c0d9cc173.png">
 
 ![Updated-portfolio-Screenshot]<img width="1274" alt="Updated Portfolio with Projects" src="https://user-images.githubusercontent.com/94794961/153693320-97bc7c7f-b27e-4603-9c20-47cc6b2e7aa9.png">
